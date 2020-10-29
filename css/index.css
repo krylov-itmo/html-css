@@ -1,0 +1,92 @@
+header {
+	background: url(../img/bg.png);
+	height: 70px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 10;
+}
+
+
+nav a {
+	/*text-shadow: 0 0 5px */
+	padding: 10px;
+	font-size: 30px;
+	color: white;
+	background-color: #6D4937;
+	border-radius: 7px;
+
+}
+
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+body {
+	margin: 0;
+
+}
+
+.main-margin {
+	margin-top: 120px;
+}
+
+h2 {
+	text-align: center;
+	font-size: 35px;
+	font-stretch: 19px;
+	color: rgba(33,33,33, 0.6);
+	text-shadow: 0px 1px;
+
+}
+
+
+a {
+	/*оформления текста в виде подчеркивания, перечеркивания, линии над текстом */
+	text-decoration: none;
+}
+
+.imgindex {
+	width: 100%;
+	height: auto; /* высота пропорционально подстраивается под ширину без искажения */
+	align-content: center;
+
+}
+
+.index-p {
+	font-size: 20px;
+	border: 2px solid black;
+}
+
+.more {
+	font-size: 20px;
+	background-color: #C0714F;
+	border-right: 1px solid orange;
+}
+
+footer {
+	background: url(../img/bg.png);
+	height: 100px;
+	width: auto;
+	position: relative;
+	bottom: 0;
+	top: 0;
+	right: 0;
+	left: 0;
+}
+
+.price {
+	font-family: Impact, Charcoal, sans-serif;
+}
+
+.gitlink {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 32px;
+	height: 32px;
+}
+
+

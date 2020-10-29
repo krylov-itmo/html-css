@@ -1,0 +1,23 @@
+@import "index.css";
+
+strong {
+	background-color: #FF8C00;
+	border-radius: 12px;
+	font-size: 35px;
+
+}
+
+blockquote {
+	border: 1px solid orange;
+	font-size: 30px;
+	background-image: url('../img/bg.png');
+	opacity: 0.8;
+}
+
+.buy {
+	font-size: 20px;
+	margin-left: 90%;
+	border: 15px solid orange;
+	border-radius: 12px;
+	background-color: orange;
+}
