@@ -14,9 +14,26 @@
 			<a href="index.html">Главная</a>
 			<a href="product.html">Скульптуры</a>
 			<a href="about.html">Контакты</a>
+			<a href="#form">Войти</a>
 		</nav>
 	</header>
 	<main class="main-margin container"> 
+		<div id=form>
+		<form action="#" method="post">
+				<div id="close-btn">	
+					<a href="#"><img id="close" src="img/close.png"></a>
+				</div>
+				<div>
+					<input type="email" name="email" placeholder="Email" required>
+				</div>
+				<div>
+					<input type="password" name="password" placeholder="Password" required>
+				</div>
+				<div>
+					<input type="submit" value="Войти">	
+				</div>	
+			</form>	
+		</div>	
 		<h2>Свяжитесь с нами для оформления заказа</h2>
 		<p>
 		<strong>Email :</strong><a href="mailto:ifmo@itmo.edu"> ifmo@itmo.edu</a><br>
@@ -26,8 +43,7 @@
 	</main>
 		<footer> 
 		<span class=price>Наши цены: </span>
-		<a class="price" href="price.zip" download>Скачать прайслист</a><br>
-		<a href="https://github.com/krylov-itmo"><img class="gitlink" src="img/git.png"></a> 	
+		<a class="price" href="price.zip" download>Скачать прайслист</a>	
 	</footer>	
 </body>
 </html>

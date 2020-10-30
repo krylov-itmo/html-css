@@ -33,6 +33,53 @@ body {
 	margin-top: 120px;
 }
 
+
+
+
+#form {
+	position: fixed;
+	left: 620px;
+	top: 320px;
+	border-radius: 10px;
+	background: brown;
+	display: none;
+	z-index: 10;
+}
+
+
+#form:target {
+	display: block;
+}
+
+
+#close-btn {
+	margin-left: 155px;
+}
+
+
+input[type=email] {
+	margin-bottom: 10px;
+}
+
+input[type=password] {
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+input[type=submit] {
+	margin-left: 124px;
+} 
+
+
+/*стили применяют применяются к div внутри элемента с классом .item, 
+когда на элемент с классом .item навели курсор мыши, 
+поменялось display: none
+на display: block;*/
+
+/*.item:action form {
+    display: block;
+}*/
+
 h2 {
 	text-align: center;
 	font-size: 35px;
