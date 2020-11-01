@@ -26,48 +26,78 @@ nav a {
 
 body {
 	margin: 0;
+	
 
 }
 
 .main-margin {
 	margin-top: 120px;
-}
 
+	
+}
 
 
 
 #form {
 	position: fixed;
-	left: 620px;
-	top: 320px;
-	border-radius: 10px;
-	background: brown;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 15;
 	display: none;
-	z-index: 10;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: none;
+
 }
 
+#form-login {
+	position: fixed;
+	top: 40%;
+	right: 45%;
+	border-radius: 10px;
+	background: url(../img/bg.png);
+	z-index: 20;
+	
+
+}
 
 #form:target {
 	display: block;
 }
 
 
+
+#close:target {
+	display: none;
+}
+
+
 #close-btn {
-	margin-left: 155px;
+	margin-left: 260px;
 }
 
 
 input[type=email] {
+	width: 280px;
+	height: 50px;
+	font-size: 2em;
 	margin-bottom: 10px;
 }
 
 input[type=password] {
+	width: 280px;
+	height: 50px;
+	font-size: 2em;
 	margin-top: 5px;
 	margin-bottom: 10px;
 }
 
 input[type=submit] {
-	margin-left: 124px;
+	width: 100px;
+	height: 40px;
+	font-size: 1.5em;
+	margin-left: 180px;
 } 
 
 

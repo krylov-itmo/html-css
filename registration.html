@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Регистрация</title>
+</head>
+<body>
+	<form id="form" action="#" method="post" enctype="multipart/form-data">
+		<fieldset>
+			<legend>Авторизационные данные</legend>
+			<div>
+				<label for="email">Email: </label>
+				<input id="email" type="email" name="email" requeired placeholder="Введите email">
+			</div>
+			<div>
+				<label for="username">Login: </label>
+				<input id="username" type="text" name="username" requeired placeholder="Введите login">
+			</div>
+			<div>
+				<label for="password">Password: </label>
+				<input id="password" type="password" name="password" requeired minlength="6" placeholder="Введите password">
+			</div>
+			<div>
+				<label for="password">Re-password: </label>
+				<input id="password" type="password" name="password" requeired placeholder="Повторите password">
+			</div>	
+			<div>
+				<label for="rememberme">Запомнить меня</label>
+				<input id="rememberme" type="checkbox" name="rememberme">
+			</div>
+			<div>
+				<button onclick="#">Далее</button>
+			</div>
+		</fieldset>
+		<fieldset>
+			<legend>Дополнительная информация :</legend>
+				<div>
+					<label for="photo">Загрузите вашу фотографию:</label>
+					<input id="photo" name="photo" type="file">
+				</div>	
+				<div>
+					<label for="fname">Имя :</label>
+					<input id="fname" name="fname" type="text" requeired placeholder="Имя">
+				<div>
+				<div>
+					<label for="lname">Фамилия :</label>
+					<input id="lname" name="lname" type="text" requeired placeholder="Фамилия">
+				<div>
+				<div>
+					<label for="mname">Отчество :</label>
+					<input id="mname" name="mname" type="text" requeired placeholder="Отчество">
+				<div>
+					<span>Пол :</span>
+					<label>Mужской<input type="radio" value="man" name="gender"></label>
+					<label>Женский<input type="radio" value="woman" name="gender"></label>
+				</div>
+				<div>
+					<label for="birthday">Дата рождения :</label>
+					<input id="birthday" type="date" name="birthday">
+				</div>
+				<div>
+					<label for="address">Адресс :</label>
+					<textarea id="address" name="address" requeired placeholder="Адресс"></textarea>
+				</div>
+				<div>
+					<label for="postcode">Почтовый индекс :</label>
+					<input id="postcode" name="postcode" type="number" requeired max=999999 placeholder="Почтовый индекс">
+				</div>
+				<div>
+					<label for="city">Город :</label>
+					<input id="city" name="city" type="text" requeired placeholder="Город">
+				</div>
+				<div>
+					<label for="region">Регион :</label>
+					<select id="region" name="region" requeired>
+						<option value="Адыгея">Республика Адыгея</option>
+						<option value="Алтай">Республика Алтай </option>
+						<option value="Башкортостан">Республика Башкортостан </option>
+						<option value="Бурятия">Республика Бурятия </option>
+						<option value="Дагестан">Республика Дагестан </option>
+						<option value="Ингушетия">Республика Ингушетия </option>
+						<option value="Кабардино-Балкария">Кабардино-Балкарская Республика</option>
+						<option value="Калмыкия">Республика Калмыкия </option>
+						<option value="Карачаево-Черкессия">Карачаево-Черкесская Республика</option>
+						<option value="Карелия">Республика Карелия </option>
+						<option value="Коми">Республика Коми </option>
+						<option value="Марий Эл">Республика Марий Эл </option>
+						<option value="Мордовия">Республика Мордовия</option>
+						<option value="Саха (Якутия)">Республика Саха (Якутия) </option>
+						<option value="Северная Осетия - Алания">Республика Северная Осетия - Алания </option>
+						<option value="Татарстан">Республика Татарстан</option>
+						<option value="Тыва">Республика Тыва </option>
+						<option value="Удмуртская">Удмуртская Республика </option>
+						<option value="Хакасия">Республика Хакасия </option>
+						<option value="Чеченская">Чеченская Республика</option>
+						<option value="Чувашская Республика">Чувашская Республика</option>
+						<option value="Алтайский край">Алтайский край</option>
+						<option value="Забайкальский край">Забайкальский край</option>
+						<option value="Камчатский край">Камчатский край</option>
+						<option value="Краснодарский край">Краснодарский край</option>
+						<option value="Красноярский край">Красноярский край</option>
+						<option value="Пермский край">Пермский край</option>
+						<option value="Приморский край">Приморский край</option>
+						<option value="Ставропольский край">Ставропольский край</option>
+						<option value="Хабаровский край">Хабаровский край</option>
+						<option value="Амурская область">Амурская область</option>
+						<option value="Архангельская область">Архангельская область</option>
+						<option value="Астраханская область">Астраханская область</option>
+						<option value="Белгородская область">Белгородская область</option>
+						<option value="Брянская область">Брянская область </option>
+						<option value="Владимирская область">Владимирская область </option>
+						<option value="Волгоградская область">Волгоградская область </option>
+						<option value="Вологодская область">Вологодская область </option>
+						<option value="Воронежская область">Воронежская область </option>
+						<option value="Ивановская область">Ивановская область </option>
+						<option value="Иркутская область">Иркутская область </option>
+						<option value="Калининградская область">Калининградская область</option>
+						<option value="Калужская область">Калужская область </option>
+						<option value="Кемеровская область">Кемеровская область </option>
+						<option value="Кировская область">Кировская область </option>
+						<option value="Костромская область">Костромская область </option>
+						<option value="Курганская область">Курганская область </option>
+						<option value="Курская область">Курская область </option>
+						<option value="Ленинградская область">Ленинградская область </option>
+						<option value="Липецкая область">Липецкая область </option>
+						<option value="Магаданская область">Магаданская область</option>
+						<option value="Московская область">Московская область </option>
+						<option value="Мурманская область">Мурманская область </option>
+						<option value="Нижегородская область">Нижегородская область </option>
+						<option value="Новгородская область">Новгородская область </option>
+						<option value="Новосибирская область">Новосибирская область </option>
+						<option value="Омская область">Омская область</option>
+						<option value="Оренбургская область">Оренбургская область </option>
+						<option value="Орловская область">Орловская область </option>
+						<option value="Пензенская область">Пензенская область </option>
+						<option value="Псковская область">Псковская область </option>
+						<option value="Ростовская область">Ростовская область </option>
+						<option value="Рязанская область">Рязанская область </option>
+						<option value="Самарская область">Самарская область </option>
+						<option value="Саратовская область">Саратовская область </option>
+						<option value="Сахалинская область">Сахалинская область </option>
+						<option value="Свердловская область">Свердловская область </option>
+						<option value="Смоленская область">Смоленская область </option>
+						<option value="Тамбовская область">Тамбовская область </option>
+						<option value="Тверская область">Тверская область </option>
+						<option value="Томская область">Томская область </option>
+						<option value="Тульская область">Тульская область</option>
+						<option value="Тюменская область">Тюменская область </option>
+						<option value="Ульяновская область">Ульяновская область </option>
+						<option value="Челябинская область">Челябинская область </option>
+						<option value="Ярославская область">Ярославская область</option>
+						<option value="Москва">Москва</option>
+						<option value="Санкт-Петербург">Санкт-Петербург</option>
+						<option value="Еврейская АО">Еврейская АО</option>
+						<option value="Ненецкий АО">Ненецкий АО</option>
+						<option value="Ханты-Мансийский АО">Ханты-Мансийский АО</option>
+						<option value="Чукотский АО">Чукотский АО</option>
+						<option value="Ямало-Ненецкий АО">Ямало-Ненецкий АО</option>
+					</select>
+				</div>	
+				<div>
+					<label for="country">Страна :</label>
+					<input id="country" name="country" type="text" value="Россия" disabled>
+				</div>
+					<div>
+					<label for="phone">Контактный телефон :</label>
+					<input id="phone" name="phone" type="text" requeired placeholder="+79876543210">
+				</div>
+				<div>
+					<button onclick="#">Перейти к оплате</button>
+				</div>		
+		</fieldset>
+		<fieldset>
+			<legend>Платежный данные</legend>
+			<div>
+				<label for="cardholder">Владелец карты</label>
+				<input id="cardholder" name="cardholder" type=text requeired> 
+			</div>
+			<div>
+				<label for="cardnum">Номер карты</label>
+				<input id="cardnum" name="cardnum" type="number" requeired placeholder=4444333322221111> 
+			</div>
+			<div>
+				<span>Срок действия    </span>
+				<label for="expm"> Месяц:</label>
+				<select id="expm" name="expm" requeired>
+						<option value="01">01</option>
+						<option value="02">02</option>
+						<option value="03">03</option>
+						<option value="04">04</option>
+						<option value="05">05</option>
+						<option value="06">06</option>
+						<option value="07">07</option>
+						<option value="08">08</option>
+						<option value="09">09</option>
+						<option value="10">10</option>
+						<option value="11">11</option>
+						<option value="12">12</option>
+				</select>
+				<label for="expy">Год :</label>
+				<select id="expy" name="expy" requeired>
+						<option value="2020">2020</option>
+						<option value="2021">2021</option>
+						<option value="2022">2022</option>
+						<option value="2023">2023</option>
+						<option value="2024">2024</option>
+						<option value="2025">2025</option>
+						<option value="2026">2026</option>
+						<option value="2027">2027</option>
+						<option value="2028">2028</option>
+						<option value="2029">2029</option>
+						<option value="2030">2030</option>
+				</select>				
+			</div>
+			<div>
+				<label for=cvv>CVV :</label>
+				<input id="cvv" name="cvv" type="password" requeired>
+			</div>
+			<div>
+				<button onclick="#">Оплатить</button>
+			</div>			
+		</fieldset>
+	</form>	
+	<button onclick=document.form.submit()>Кнопка за пределами формы</button>
+</body>
+</html>
