@@ -10,19 +10,19 @@
 			<legend>Авторизационные данные</legend>
 			<div>
 				<label for="email">Email: </label>
-				<input id="email" type="email" name="email" requeired placeholder="Введите email">
+				<input id="email" type="email" name="email" required placeholder="Введите email">
 			</div>
 			<div>
 				<label for="username">Login: </label>
-				<input id="username" type="text" name="username" requeired placeholder="Введите login">
+				<input id="username" type="text" name="username" required placeholder="Введите login">
 			</div>
 			<div>
 				<label for="password">Password: </label>
-				<input id="password" type="password" name="password" requeired minlength="6" placeholder="Введите password">
+				<input id="password" type="password" name="password" required minlength="6" placeholder="Введите password">
 			</div>
 			<div>
-				<label for="password">Re-password: </label>
-				<input id="password" type="password" name="password" requeired placeholder="Повторите password">
+				<label for="password2">Re-password: </label>
+				<input id="password2" type="password" name="password2" required placeholder="Повторите password">
 			</div>	
 			<div>
 				<label for="rememberme">Запомнить меня</label>
@@ -40,15 +40,15 @@
 				</div>	
 				<div>
 					<label for="fname">Имя :</label>
-					<input id="fname" name="fname" type="text" requeired placeholder="Имя">
+					<input id="fname" name="fname" type="text" required placeholder="Имя">
 				<div>
 				<div>
 					<label for="lname">Фамилия :</label>
-					<input id="lname" name="lname" type="text" requeired placeholder="Фамилия">
+					<input id="lname" name="lname" type="text" required placeholder="Фамилия">
 				<div>
 				<div>
 					<label for="mname">Отчество :</label>
-					<input id="mname" name="mname" type="text" requeired placeholder="Отчество">
+					<input id="mname" name="mname" type="text" required placeholder="Отчество">
 				<div>
 					<span>Пол :</span>
 					<label>Mужской<input type="radio" value="man" name="gender"></label>
@@ -60,19 +60,19 @@
 				</div>
 				<div>
 					<label for="address">Адресс :</label>
-					<textarea id="address" name="address" requeired placeholder="Адресс"></textarea>
+					<textarea id="address" name="address" required placeholder="Адресс"></textarea>
 				</div>
 				<div>
 					<label for="postcode">Почтовый индекс :</label>
-					<input id="postcode" name="postcode" type="number" requeired max=999999 placeholder="Почтовый индекс">
+					<input id="postcode" name="postcode" type="number" required max=999999 placeholder="Почтовый индекс">
 				</div>
 				<div>
 					<label for="city">Город :</label>
-					<input id="city" name="city" type="text" requeired placeholder="Город">
+					<input id="city" name="city" type="text" required placeholder="Город">
 				</div>
 				<div>
 					<label for="region">Регион :</label>
-					<select id="region" name="region" requeired>
+					<select id="region" name="region" required>
 						<option value="Адыгея">Республика Адыгея</option>
 						<option value="Алтай">Республика Алтай </option>
 						<option value="Башкортостан">Республика Башкортостан </option>
@@ -164,7 +164,7 @@
 				</div>
 					<div>
 					<label for="phone">Контактный телефон :</label>
-					<input id="phone" name="phone" type="text" requeired placeholder="+79876543210">
+					<input id="phone" name="phone" type="text" required placeholder="+79876543210">
 				</div>
 				<div>
 					<button onclick="#">Перейти к оплате</button>
@@ -174,16 +174,16 @@
 			<legend>Платежный данные</legend>
 			<div>
 				<label for="cardholder">Владелец карты</label>
-				<input id="cardholder" name="cardholder" type=text requeired> 
+				<input id="cardholder" name="cardholder" type=text required> 
 			</div>
 			<div>
 				<label for="cardnum">Номер карты</label>
-				<input id="cardnum" name="cardnum" type="number" requeired placeholder=4444333322221111> 
+				<input id="cardnum" name="cardnum" type="number" required placeholder=4444333322221111> 
 			</div>
 			<div>
 				<span>Срок действия    </span>
 				<label for="expm"> Месяц:</label>
-				<select id="expm" name="expm" requeired>
+				<select id="expm" name="expm" required>
 						<option value="01">01</option>
 						<option value="02">02</option>
 						<option value="03">03</option>
@@ -198,7 +198,7 @@
 						<option value="12">12</option>
 				</select>
 				<label for="expy">Год :</label>
-				<select id="expy" name="expy" requeired>
+				<select id="expy" name="expy" required>
 						<option value="2020">2020</option>
 						<option value="2021">2021</option>
 						<option value="2022">2022</option>
@@ -214,7 +214,7 @@
 			</div>
 			<div>
 				<label for=cvv>CVV :</label>
-				<input id="cvv" name="cvv" type="password" requeired>
+				<input id="cvv" name="cvv" type="password" required>
 			</div>
 			<div>
 				<button onclick="#">Оплатить</button>
